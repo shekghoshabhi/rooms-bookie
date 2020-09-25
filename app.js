@@ -5,6 +5,7 @@ const path = require('path');
 const session = require('express-session')
 const passport = require('./passport')
 
+const PORT = process.env.PORT || 3333
 
 // routes
 const route = require('./routes/index')
@@ -56,8 +57,8 @@ app.use('/',express.static(__dirname+'/static'))
 
 
 
-app.listen(4444,()=>{
-    console.log("http://localhost:4444")
+app.listen(PORT,()=>{
+    console.log("http://localhost:3333")
 })
 
 
