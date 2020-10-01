@@ -1,3 +1,3 @@
 # rooms-bookie
-Hotrl booking and room listing site replicating airbnb
+Hotel booking and room listing website replicating airbnb
 https://rooms-bookie.herokuapp.com/
